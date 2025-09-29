@@ -25,6 +25,10 @@ public class CalculatorTest {
     @Test
     public void testResta() {
         assertEquals(3, calc.resta(5, 2));
+    }
+
+    @Test
+    public void testRestaNegativa(){
         assertEquals(-14, calc.resta(-10, 4));
     }
 
