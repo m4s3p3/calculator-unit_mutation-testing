@@ -1,0 +1,34 @@
+# --- Compilació i build ---
+/target/
+/build/
+/out/
+
+# --- Fitxers temporals ---
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+
+# --- IDEs ---
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# --- Cobertura i informes ---
+/jacoco.exec
+/jacoco-report/
+/pit-reports/
+/surefire-reports/
+/test-output/
+
+# --- Altres ---
+/*.bak
